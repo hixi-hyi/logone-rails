@@ -20,9 +20,13 @@ And then execute:
     * The log is not written out until the function ends.
 
 ## Usage
-
+### setting
 ```
 config.middleware.insert_after(0, Logone::Gaefe::Rails::Middleware, STDOUT)
+```
+### logging
+```
+Rails.logger.crit "xxxx"
 ```
 
 
