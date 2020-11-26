@@ -22,7 +22,7 @@ And then execute:
 ## Usage
 ### setting
 ```
-config.middleware.insert_after(0, Logone::Gaefe::Rails::Middleware, STDOUT)
+config.middleware.insert_after(0, Logone::Rails::Middleware, STDOUT)
 ```
 ### logging
 ```
